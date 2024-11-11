@@ -13,8 +13,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* ロゴ */}
-          <Link to="/" className="text-xl font-bold">
-            SJP
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/sjp_logo_004_20211006.png" 
+              alt="SJP" 
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* ハンバーガーメニューボタン */}

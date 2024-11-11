@@ -6,7 +6,7 @@ const Footer = () => {
                 <div className="flex items-center gap-8">
                     {/* ロゴ部分 */}
                     <div>
-                        <img src="/sjp logo_004_20211006 1.png" alt="SJP&Co. Logo" className="h-12 w-auto" />
+                        <img src="/sjp_logo_004_20211006.png" alt="SJP&Co. Logo" className="h-12 w-auto" />
                     </div>
 
                     {/* 住所・連絡先情報 */}
