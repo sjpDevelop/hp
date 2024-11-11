@@ -3,7 +3,7 @@ export interface Section {
     subtitle: string;
     description: string;
     images: string[];
-    badge: 'Marketing' | 'Event' | 'Operation';
+    badge: string | string[];
     index?: number;
 }
 
