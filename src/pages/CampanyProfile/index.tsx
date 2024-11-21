@@ -10,6 +10,70 @@ function CompanyProfile() {
             <Header />
             <Top />
             <main>
+                <div className="flex items-center justify-between max-w-6xl mx-auto mb-20 px-4">
+                    <div className="w-1/2">
+                        <h2 className="text-5xl leading-tight text-center text-blue-400 font-sans font-bold mb-4">
+                            Company Policy
+                        </h2>
+                        <p className="text-center text-lg font-bold mb-8">社是</p>
+
+                        <div className="max-w-3xl mx-auto text-center">
+                            <h3 className="text-2xl font-bold mb-4">その先へ</h3>
+                            <p className="text-xl italic mb-8">
+                                beyond the now, go ahead
+                            </p>
+                            <p className="text-lg leading-relaxed">
+                                目の前のヒト・モノ(想い、時間、出来事、情報)・お金に
+                                <br />
+                                対してどれだけの「笑顔」が作れるかを考える
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div className="w-1/2 pl-8">
+                        <img
+                            src="/CBP2017_170920_0008.jpg"
+                            alt="Company Policy Image"
+                            className="w-full h-auto rounded-lg shadow-lg"
+                        />
+                    </div>
+                </div>
+
+                <div className="flex items-center justify-between max-w-6xl mx-auto mb-20 px-4">
+                    <div className="w-1/2 pr-8">
+                        <img
+                            src="/IMG_1695.png"
+                            alt="Management Policy Image"
+                            className="w-full h-auto rounded-lg shadow-lg"
+                        />
+                    </div>
+
+                    <div className="w-1/2">
+                        <h2 className="text-5xl leading-tight text-center text-blue-400 font-sans font-bold mb-4">
+                            Management Policy
+                        </h2>
+                        <p className="text-center text-lg font-bold mb-8">経営方針</p>
+
+                        <div className="max-w-3xl mx-auto text-center">
+                            <h3 className="text-2xl font-bold mb-4">
+                                早く行きたければ一人で行け
+                                <br />
+                                遠くまで行きたければみんなで行け
+                            </h3>
+                            <p className="text-lg italic mb-8">
+                                if you want to go fast, go alone
+                                <br />
+                                if you want to go far, go together
+                            </p>
+                            <p className="text-lg leading-relaxed">
+                                小さいことを一緒にやっていって
+                                <br />
+                                大きいことができるような仲間でありたい。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <h2 className="text-5xl leading-tight text-center text-blue-400 font-sans font-bold mb-4">
                     Description of Business
                 </h2>
@@ -57,8 +121,8 @@ function CompanyProfile() {
 
                     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                         <img
-                            className="rounded-t-lg w-64 h-48 object-cover"
-                            src="/IMG_1357.png"
+                            className="rounded-t-lg w-64 h-48 object-contain"
+                            src="/denki.png"
                             alt=""
                         />
                         <div className="p-5">
@@ -78,15 +142,21 @@ function CompanyProfile() {
                     <table className="w-full border-collapse">
                         <tbody>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left w-1/4 font-bold">社名</th>
+                                <th className="py-4 px-6 text-left w-1/4 font-bold">
+                                    社名
+                                </th>
                                 <td className="py-4 px-6">
                                     SJP株式会社
                                     <br />
-                                    <span className="text-gray-600">-Sharky Japan Promotion-</span>
+                                    <span className="text-gray-600">
+                                        -Sharky Japan Promotion-
+                                    </span>
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">所在地</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    所在地
+                                </th>
                                 <td className="py-4 px-6">
                                     〒541-0059
                                     <br />
@@ -96,27 +166,41 @@ function CompanyProfile() {
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">代表者</th>
-                                <td className="py-4 px-6">鮫島永都（代表取締役）</td>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    代表者
+                                </th>
+                                <td className="py-4 px-6">
+                                    鮫島永都（代表取締役）
+                                </td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">資本金</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    資本金
+                                </th>
                                 <td className="py-4 px-6">100万円</td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">創業</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    創業
+                                </th>
                                 <td className="py-4 px-6">2014年10月1日</td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">設立</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    設立
+                                </th>
                                 <td className="py-4 px-6">2016年10月18日</td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">従業員数</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    従業員数
+                                </th>
                                 <td className="py-4 px-6">3名</td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">事業内容</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    事業内容
+                                </th>
                                 <td className="py-4 px-6">
                                     広告代理店業
                                     <br />
@@ -126,7 +210,9 @@ function CompanyProfile() {
                                 </td>
                             </tr>
                             <tr className="border-b border-gray-200">
-                                <th className="py-4 px-6 text-left font-bold">自主開催事業</th>
+                                <th className="py-4 px-6 text-left font-bold">
+                                    自主開催事業
+                                </th>
                                 <td className="py-4 px-6">
                                     Craft Beer Picnic
                                     <br />
@@ -149,7 +235,9 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left w-1/4 font-bold">
                                     2014.Oct
                                     <br />
-                                    <span className="text-sm text-gray-600">平成26年</span>
+                                    <span className="text-sm text-gray-600">
+                                        平成26年
+                                    </span>
                                 </th>
                                 <td className="py-4 px-6">
                                     SJP個人事業開業
@@ -161,7 +249,9 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left font-bold">
                                     2016.Oct
                                     <br />
-                                    <span className="text-sm text-gray-600">平成28年</span>
+                                    <span className="text-sm text-gray-600">
+                                        平成28年
+                                    </span>
                                 </th>
                                 <td className="py-4 px-6">
                                     SJP株式会社法人設立
@@ -173,7 +263,9 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left font-bold">
                                     2017.Aug
                                     <br />
-                                    <span className="text-sm text-gray-600">平成29年</span>
+                                    <span className="text-sm text-gray-600">
+                                        平成29年
+                                    </span>
                                 </th>
                                 <td className="py-4 px-6">
                                     酒販事業部設立（輸出・小売・通販）
@@ -185,31 +277,45 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left font-bold">
                                     2018.Sep
                                     <br />
-                                    <span className="text-sm text-gray-600">平成30年</span>
+                                    <span className="text-sm text-gray-600">
+                                        平成30年
+                                    </span>
                                 </th>
-                                <td className="py-4 px-6">台灣輸出（日本酒）</td>
+                                <td className="py-4 px-6">
+                                    台灣輸出（日本酒）
+                                </td>
                             </tr>
                             <tr className="border-b border-gray-200">
                                 <th className="py-4 px-6 text-left font-bold">
                                     2018.Nov
                                     <br />
-                                    <span className="text-sm text-gray-600">平成30年</span>
+                                    <span className="text-sm text-gray-600">
+                                        平成30年
+                                    </span>
                                 </th>
-                                <td className="py-4 px-6">フランス輸出（日本酒）</td>
+                                <td className="py-4 px-6">
+                                    フランス輸出（日本酒）
+                                </td>
                             </tr>
                             <tr className="border-b border-gray-200">
                                 <th className="py-4 px-6 text-left font-bold">
                                     2019.Jun
                                     <br />
-                                    <span className="text-sm text-gray-600">令和元年</span>
+                                    <span className="text-sm text-gray-600">
+                                        令和元年
+                                    </span>
                                 </th>
-                                <td className="py-4 px-6">G20関連事業（インドネシア国大使館・領事館）</td>
+                                <td className="py-4 px-6">
+                                    G20関連事業（インドネシア国大使館・領事館）
+                                </td>
                             </tr>
                             <tr className="border-b border-gray-200">
                                 <th className="py-4 px-6 text-left font-bold">
                                     2021.Oct
                                     <br />
-                                    <span className="text-sm text-gray-600">令和3年</span>
+                                    <span className="text-sm text-gray-600">
+                                        令��3年
+                                    </span>
                                 </th>
                                 <td className="py-4 px-6">
                                     Roshe オープン
@@ -221,7 +327,9 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left font-bold">
                                     2022.Jan
                                     <br />
-                                    <span className="text-sm text-gray-600">令和4年</span>
+                                    <span className="text-sm text-gray-600">
+                                        令和4年
+                                    </span>
                                 </th>
                                 <td className="py-4 px-6">
                                     電気通信事業部設立
@@ -233,9 +341,13 @@ function CompanyProfile() {
                                 <th className="py-4 px-6 text-left font-bold">
                                     2023.Dec
                                     <br />
-                                    <span className="text-sm text-gray-600">令和4年</span>
+                                    <span className="text-sm text-gray-600">
+                                        令和4年
+                                    </span>
                                 </th>
-                                <td className="py-4 px-6">エステ・脱毛サロン神戸店オープン</td>
+                                <td className="py-4 px-6">
+                                    エステ・脱毛サロン神戸店オープン
+                                </td>
                             </tr>
                         </tbody>
                     </table>
